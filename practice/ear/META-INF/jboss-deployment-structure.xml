@@ -1,0 +1,11 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+  <sub-deployment name="usersrvcsweb.war">
+    <dependencies>
+
+     <module name="org.jboss.logging" export="true"/>     
+     <module name="com.google.code.gson"/>                   
+     <module name="org.reflections"/>
+     
+    </dependencies>
+    </sub-deployment>
+</jboss-deployment-structure>
